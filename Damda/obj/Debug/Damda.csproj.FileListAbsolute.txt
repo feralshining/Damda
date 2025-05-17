@@ -1,0 +1,5 @@
+C:\Users\root\source\repos\Damda\Damda\obj\Debug\Damda.csproj.AssemblyReference.cache
+C:\Users\root\source\repos\Damda\Damda\obj\Debug\Damda.Form1.resources
+C:\Users\root\source\repos\Damda\Damda\obj\Debug\Damda.Properties.Resources.resources
+C:\Users\root\source\repos\Damda\Damda\obj\Debug\Damda.csproj.GenerateResource.cache
+C:\Users\root\source\repos\Damda\Damda\obj\Debug\Damda.csproj.CoreCompileInputs.cache

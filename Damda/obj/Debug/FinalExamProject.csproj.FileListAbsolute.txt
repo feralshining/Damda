@@ -1,0 +1,12 @@
+C:\Users\root\source\repos\FinalExamProject\FinalExamProject\bin\Debug\FinalExamProject.exe.config
+C:\Users\root\source\repos\FinalExamProject\FinalExamProject\bin\Debug\FinalExamProject.exe
+C:\Users\root\source\repos\FinalExamProject\FinalExamProject\bin\Debug\FinalExamProject.pdb
+C:\Users\root\source\repos\FinalExamProject\FinalExamProject\bin\Debug\Guna.UI2.dll
+C:\Users\root\source\repos\FinalExamProject\FinalExamProject\obj\Debug\FinalExamProject.csproj.AssemblyReference.cache
+C:\Users\root\source\repos\FinalExamProject\FinalExamProject\obj\Debug\FinalExamProject.Form1.resources
+C:\Users\root\source\repos\FinalExamProject\FinalExamProject\obj\Debug\FinalExamProject.Properties.Resources.resources
+C:\Users\root\source\repos\FinalExamProject\FinalExamProject\obj\Debug\FinalExamProject.csproj.GenerateResource.cache
+C:\Users\root\source\repos\FinalExamProject\FinalExamProject\obj\Debug\FinalExamProject.csproj.CoreCompileInputs.cache
+C:\Users\root\source\repos\FinalExamProject\FinalExamProject\obj\Debug\FinalExa.E538D9E5.Up2Date
+C:\Users\root\source\repos\FinalExamProject\FinalExamProject\obj\Debug\FinalExamProject.exe
+C:\Users\root\source\repos\FinalExamProject\FinalExamProject\obj\Debug\FinalExamProject.pdb
