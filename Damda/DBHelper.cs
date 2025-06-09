@@ -10,8 +10,14 @@ namespace Damda
 {
     public class DBHelper
     {
-        //DB 경로 지정
-        public static string connStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\s4chd\source\repos\Damda-main\Damda\DB\DamdaFinalDB.mdf;Integrated Security=True";
+        //DB 경로 지정 (데스크탑용)
+        //public static string connStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\s4chd\source\repos\Damda-main\Damda\DB\DamdaFinalDB.mdf;Integrated Security=True";
+        //DB 경로 지정 (노트북용)
+        public static string connStr = @"
+                                        Data Source=desktop-h9f8umg\mssqlserver01;
+                                        Initial Catalog=DamdaFinalDB;
+                                        Integrated Security=True";
+
 
         /// <summary>
         /// 지정된 연결 문자열을 사용하여 SqlConnection 객체를 생성합니다.

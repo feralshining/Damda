@@ -35,7 +35,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnSettings = new Guna.UI2.WinForms.Guna2Button();
             this.btnExport = new Guna.UI2.WinForms.Guna2Button();
             this.btnDeal = new Guna.UI2.WinForms.Guna2Button();
             this.btnStat = new Guna.UI2.WinForms.Guna2Button();
@@ -61,7 +61,7 @@
             this.menuPanel.Controls.Add(this.label3);
             this.menuPanel.Controls.Add(this.guna2PictureBox2);
             this.menuPanel.Controls.Add(this.label2);
-            this.menuPanel.Controls.Add(this.guna2Button1);
+            this.menuPanel.Controls.Add(this.btnSettings);
             this.menuPanel.Controls.Add(this.btnExport);
             this.menuPanel.Controls.Add(this.btnDeal);
             this.menuPanel.Controls.Add(this.btnStat);
@@ -83,7 +83,7 @@
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(67, 551);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(106, 42);
+            this.label3.Size = new System.Drawing.Size(132, 56);
             this.label3.TabIndex = 1;
             this.label3.Text = "고객도, 매출도,\r\n따뜻하게 담다";
             // 
@@ -108,28 +108,28 @@
             this.label2.Size = new System.Drawing.Size(130, 1);
             this.label2.TabIndex = 6;
             // 
-            // guna2Button1
+            // btnSettings
             // 
-            this.guna2Button1.Animated = true;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.guna2Button1.Font = new System.Drawing.Font("CookieRun Regular", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(63)))), ((int)(((byte)(77)))));
-            this.guna2Button1.Image = global::Damda.Properties.Resources.icon_config;
-            this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button1.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button1.Location = new System.Drawing.Point(12, 449);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.PressedColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2Button1.Size = new System.Drawing.Size(166, 36);
-            this.guna2Button1.TabIndex = 3;
-            this.guna2Button1.Text = "  설정";
-            this.guna2Button1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            this.btnSettings.Animated = true;
+            this.btnSettings.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnSettings.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnSettings.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnSettings.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnSettings.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.btnSettings.Font = new System.Drawing.Font("CookieRun Regular", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnSettings.ForeColor = System.Drawing.Color.White;
+            this.btnSettings.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(63)))), ((int)(((byte)(77)))));
+            this.btnSettings.Image = global::Damda.Properties.Resources.icon_config;
+            this.btnSettings.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnSettings.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnSettings.Location = new System.Drawing.Point(12, 449);
+            this.btnSettings.Name = "btnSettings";
+            this.btnSettings.PressedColor = System.Drawing.Color.WhiteSmoke;
+            this.btnSettings.Size = new System.Drawing.Size(166, 36);
+            this.btnSettings.TabIndex = 3;
+            this.btnSettings.Text = "  설정";
+            this.btnSettings.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
             // 
             // btnExport
             // 
@@ -274,11 +274,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("CookieRun Regular", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label1.Font = new System.Drawing.Font("Copperplate Gothic Light", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(77, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 41);
+            this.label1.Size = new System.Drawing.Size(73, 40);
             this.label1.TabIndex = 0;
             this.label1.Text = "담다";
             // 
@@ -335,7 +335,7 @@
         private Guna.UI2.WinForms.Guna2Button btnStat;
         private Guna.UI2.WinForms.Guna2Button btnDeal;
         private Guna.UI2.WinForms.Guna2Button btnExport;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btnSettings;
         private Guna.UI2.WinForms.Guna2Panel containerPanel;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;

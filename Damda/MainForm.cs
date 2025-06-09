@@ -14,41 +14,23 @@ namespace Damda
 {
     public partial class MainForm : Form
     {
-        SqlConnection con;
-        SqlCommand cmd;
-        SqlDataReader reader;
-        string sql;
-        public MainForm()
-        {
-            InitializeComponent();
-            //SqlInitialize();
-            //InsertSQL();
-        }
-        private void SqlInitialize()
-        {
-            string conStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\DAMDA\DB\damda.mdf;Integrated Security=True";
-            con = new SqlConnection(conStr);
-            sql = "SELECT * FROM tbCustomer ORDER BY id DESC";
-            cmd = new SqlCommand(sql, con);
-        }
-
-        private void InsertSQL()
-        {
-
-            reader = cmd.ExecuteReader();
-            while (reader.Read())
-            {
-                string name = reader["name"].ToString();
-                int spent = Convert.ToInt32(reader["totalSpent"]);
-                // 리스트뷰나 DataGridView에 추가
-            }
-            reader.Close();
-        }
-
-
+        public MainForm() => InitializeComponent();
         private void MainForm_Load(object sender, EventArgs e)
         {
+            SetFontUI();
             btnHome_Click(sender, e);
+        }
+        private void SetFontUI()
+        {
+            label1.Font = FontManager.CookieRun_22;
+            btnHome.Font = FontManager.CookieRun_10;
+            btnSale.Font = FontManager.CookieRun_10;
+            btnCustomer.Font = FontManager.CookieRun_10;
+            btnStat.Font = FontManager.CookieRun_10;
+            btnDeal.Font = FontManager.CookieRun_10;
+            btnExport.Font = FontManager.CookieRun_10;
+            btnSettings.Font = FontManager.CookieRun_10;
+            label3.Font = FontManager.CookieRun_10;
         }
 
         private void ChangePanel(object _form)
@@ -71,7 +53,7 @@ namespace Damda
         private void btnStat_Click(object sender, EventArgs e) => ChangePanel(new MenuStat());
         private void btnDeal_Click(object sender, EventArgs e) => ChangePanel(new MenuHistory());
         private void btnExport_Click(object sender, EventArgs e) => ChangePanel(new MenuExport());
-        private void guna2Button1_Click(object sender, EventArgs e) => ChangePanel(new MenuSettings());
+        private void btnSettings_Click(object sender, EventArgs e) => ChangePanel(new MenuSettings());
         #endregion
     }
 }

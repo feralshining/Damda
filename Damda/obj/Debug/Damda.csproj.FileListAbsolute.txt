@@ -9,8 +9,6 @@ C:\Users\root\source\repos\Damda\Damda\obj\Debug\Damda.MainForm.resources
 C:\Users\root\source\repos\Damda\Damda\obj\Debug\Damda.exe
 C:\Users\root\source\repos\Damda\Damda\obj\Debug\Damda.pdb
 C:\Users\root\source\repos\Damda\Damda\obj\Debug\Damda.MenuHome.resources
-C:\Users\root\source\repos\Damda\Damda\obj\Debug\Damda.csproj.Fody.CopyLocal.cache
-C:\Users\root\source\repos\Damda\Damda\obj\Debug\Damda.csproj.Fody.RuntimeCopyLocal.cache
 C:\Users\root\source\repos\Damda\Damda\obj\Debug\Damda.MenuSale.resources
 C:\Users\s4chd\source\repos\Damda-main\Damda\bin\Debug\Damda.exe.config
 C:\Users\s4chd\source\repos\Damda-main\Damda\bin\Debug\Damda.exe
@@ -32,3 +30,10 @@ C:\Users\s4chd\source\repos\Damda-main\Damda\obj\Debug\Damda.exe
 C:\Users\s4chd\source\repos\Damda-main\Damda\obj\Debug\Damda.pdb
 C:\Users\s4chd\source\repos\Damda-main\Damda\obj\Debug\Damda.csproj.Fody.CopyLocal.cache
 C:\Users\s4chd\source\repos\Damda-main\Damda\obj\Debug\Damda.csproj.Fody.RuntimeCopyLocal.cache
+C:\Users\root\source\repos\Damda\Damda\obj\Debug\Damda.MenuCustomer.resources
+C:\Users\root\source\repos\Damda\Damda\obj\Debug\Damda.MenuExport.resources
+C:\Users\root\source\repos\Damda\Damda\obj\Debug\Damda.MenuHistory.resources
+C:\Users\root\source\repos\Damda\Damda\obj\Debug\Damda.MenuSettings.resources
+C:\Users\root\source\repos\Damda\Damda\obj\Debug\Damda.MenuStat.resources
+C:\Users\root\source\repos\Damda\Damda\obj\Debug\Damda.csproj.Fody.CopyLocal.cache
+C:\Users\root\source\repos\Damda\Damda\obj\Debug\Damda.csproj.Fody.RuntimeCopyLocal.cache

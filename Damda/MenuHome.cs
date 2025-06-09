@@ -73,7 +73,7 @@ namespace Damda
                     LEFT JOIN tbCustomer c 
                         ON s.customerId = c.id
                 WHERE s.saleDate = CONVERT(date, GETDATE())";
-            guna2DataGridView1.DataSource = DBHelper.ExecuteDataTable(sql);
+            dgvTodaySalesHistory.DataSource = DBHelper.ExecuteDataTable(sql);
         }
     }
 }

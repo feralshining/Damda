@@ -61,6 +61,16 @@ namespace Damda.Properties {
         }
         
         /// <summary>
+        ///   System.Byte[] 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static byte[] CookieRun_Regular {
+            get {
+                object obj = ResourceManager.GetObject("CookieRun Regular", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
         internal static System.Drawing.Bitmap DAMDA_full {
@@ -157,6 +167,16 @@ namespace Damda.Properties {
             get {
                 object obj = ResourceManager.GetObject("icon_stat", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Byte[] 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static byte[] KookminJeongeum_Regular {
+            get {
+                object obj = ResourceManager.GetObject("KookminJeongeum_Regular", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
