@@ -15,8 +15,19 @@ namespace Damda
         public MenuCustomer()
         {
             InitializeComponent();
+            SetUIFont();
         }
-
+        private void SetUIFont()
+        {
+            menuLabel.Font = FontManager.CookieRun_22;
+            guna2GroupBox1.Font = FontManager.Kookmin_9;
+            dgvCustomerList.ColumnHeadersDefaultCellStyle.Font = FontManager.Kookmin_9;
+            dgvCustomerList.DefaultCellStyle.Font = FontManager.Kookmin_9;
+            dgvCustomerList.RowHeadersDefaultCellStyle.Font = FontManager.Kookmin_9;
+            dgvCustomerList.ThemeStyle.HeaderStyle.Font = FontManager.Kookmin_9;
+            dgvCustomerList.ThemeStyle.RowsStyle.Font = FontManager.Kookmin_9;
+            cmbGradeFilter.Font = FontManager.CookieRun_14;
+        }
         private void cmbGradeFilter_SelectedIndexChanged(object sender, EventArgs e)
         {
             string selectedGrade = cmbGradeFilter.SelectedItem?.ToString() ?? "전체";

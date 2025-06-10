@@ -22,11 +22,20 @@ namespace Damda
 
         public static readonly Font CookieRun_10 = GetFont("CookieRun", 10.8f);
         public static readonly Font CookieRun_12 = GetFont("CookieRun", 12f);
+        public static readonly Font CookieRun_14 = GetFont("CookieRun", 14f);
+        public static readonly Font CookieRun_16 = GetFont("CookieRun", 16.2f);
+        public static readonly Font CookieRun_20 = GetFont("CookieRun", 19.8f);
         public static readonly Font CookieRun_22 = GetFont("CookieRun", 22.2f);
-        public static readonly Font Kookmin_12 = GetFont("Kookmin", 12f);
+
+        public static readonly Font Kookmin_9 = GetFont("국민연금체", 9f);
+        public static readonly Font Kookmin_9_75 = GetFont("국민연금체", 9.75f);
+        public static readonly Font Kookmin_10 = GetFont("국민연금체", 10f);
+        public static readonly Font Kookmin_11 = GetFont("국민연금체", 11f);
+        public static readonly Font Kookmin_12 = GetFont("국민연금체", 12f);
+        public static readonly Font Kookmin_16 = GetFont("국민연금체", 15.75f);
 
         /// <summary>
-        /// 생성자: 리소스에서 폰트를 읽어 메모리에 등록합니다.
+        /// 생성자 : 리소스에서 폰트를 읽어 메모리에 등록합니다.
         /// </summary>
         public FontManager() => AddFontFromMemory();
 
@@ -71,6 +80,9 @@ namespace Damda
                     break;
                 }
             }
+            // 디버깅: 폰트 검색 결과 출력
+            Console.WriteLine($"Searching for font with keyword: {keyword}, Found: {(found != null ? found.Name : "None")}");
+
             return (found != null) ? new Font(found, size, style) : SystemFonts.DefaultFont;
         }
     }

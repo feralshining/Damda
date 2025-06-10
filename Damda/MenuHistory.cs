@@ -15,6 +15,19 @@ namespace Damda
         public MenuHistory()
         {
             InitializeComponent();
+            SetUIFont();
+        }
+        private void SetUIFont()
+        {
+            menuLabel.Font = FontManager.CookieRun_22;
+            guna2GroupBox1.Font = FontManager.Kookmin_9;
+            guna2DataGridView1.ColumnHeadersDefaultCellStyle.Font = FontManager.Kookmin_9;
+            guna2DataGridView1.DefaultCellStyle.Font = FontManager.Kookmin_9;
+            guna2DataGridView1.ThemeStyle.HeaderStyle.Font = FontManager.Kookmin_9;
+            guna2DataGridView1.ThemeStyle.RowsStyle.Font = FontManager.Kookmin_9;
+            guna2ComboBox1.Font = FontManager.CookieRun_14;
+            guna2ComboBox2.Font = FontManager.CookieRun_14;
+            guna2TextBox1.Font = FontManager.CookieRun_14;
         }
 
     }

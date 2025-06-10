@@ -15,9 +15,29 @@ namespace Damda
         public MenuHome()
         {
             InitializeComponent();
+            SetUIFont();
             LoadTodaySummary();
         }
-        private void LoadTodaySummary()
+        private void SetUIFont()
+        {
+            menuLabel.Font = FontManager.CookieRun_22;
+
+            label1.Font = FontManager.Kookmin_16;
+            label3.Font = FontManager.Kookmin_16;
+            label4.Font = FontManager.Kookmin_16;
+            label5.Font = FontManager.Kookmin_16;
+            label2.Font = FontManager.Kookmin_16;
+
+            lblTodayTotal.Font = FontManager.CookieRun_20;
+            lblTodayCount.Font = FontManager.CookieRun_16;
+            lblTopPayment.Font = FontManager.CookieRun_16; 
+            lblBestCustomer.Font = FontManager.CookieRun_16;
+
+            dgvTodaySalesHistory.ColumnHeadersDefaultCellStyle.Font = FontManager.Kookmin_9;
+            dgvTodaySalesHistory.DefaultCellStyle.Font = FontManager.Kookmin_9;
+            dgvTodaySalesHistory.RowHeadersDefaultCellStyle.Font = FontManager.Kookmin_9;
+        }
+    private void LoadTodaySummary()
         {
             object result;
             string sql;

@@ -20,6 +20,24 @@ namespace Damda
             InitializeComponent();
             txtGradeSilver.Text = GradeSilver.ToString();
             txtGradeGold.Text = GradeGold.ToString();
+            SetUIFont();
+        }
+        private void SetUIFont()
+        {
+            menuLabel.Font = FontManager.CookieRun_22;
+
+            label5.Font = FontManager.Kookmin_16;
+            label1.Font = FontManager.Kookmin_16;
+            label2.Font = FontManager.Kookmin_16;
+            label6.Font = FontManager.Kookmin_16;
+            label3.Font = FontManager.Kookmin_16;
+
+            txtGradeSilver.Font = FontManager.Kookmin_9;
+            txtGradeGold.Font = FontManager.Kookmin_9;
+            guna2TextBox2.Font = FontManager.Kookmin_9;
+
+            guna2Button2.Font = FontManager.CookieRun_12;
+            guna2Button3.Font = FontManager.CookieRun_12;
         }
 
         private void txtGradeSilver_TextChanged(object sender, EventArgs e)

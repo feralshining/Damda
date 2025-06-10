@@ -16,7 +16,38 @@ namespace Damda
         public MenuSale()
         {
             InitializeComponent();
+            SetUIFont();
         }
+        private void SetUIFont()
+        {
+            // Labels
+            menuLabel.Font = FontManager.CookieRun_22; // CookieRun Regular, 22.2F
+            label1.Font = FontManager.Kookmin_16; // 국민연금체 Regular, 15.75F
+            label4.Font = FontManager.Kookmin_16; // 국민연금체 Regular, 15.75F
+            label5.Font = FontManager.Kookmin_16; // 국민연금체 Regular, 15.75F
+            label6.Font = FontManager.Kookmin_16; // 국민연금체 Regular, 15.75F
+            lblTotalPrice.Font = FontManager.Kookmin_12; // 국민연금체 Regular, 12F
+
+            // Buttons
+            btnRegister.Font = FontManager.CookieRun_12; // CookieRun Regular, 12F
+            btnItemAdd.Font = FontManager.CookieRun_12; // CookieRun Regular, 12F
+
+            // DataGridView
+            dgvSalesHistory.ColumnHeadersDefaultCellStyle.Font = FontManager.Kookmin_11; // 국민연금체 Regular, 11F
+            dgvSalesHistory.DefaultCellStyle.Font = FontManager.Kookmin_11; // 국민연금체 Regular, 11F
+            dgvSalesHistory.RowHeadersDefaultCellStyle.Font = FontManager.Kookmin_11; // 국민연금체 Regular, 11F
+            dgvSalesHistory.ThemeStyle.HeaderStyle.Font = FontManager.Kookmin_11; // 국민연금체 Regular, 11F
+            dgvSalesHistory.ThemeStyle.RowsStyle.Font = FontManager.Kookmin_9; // 국민연금체 Regular, 9F
+
+            // Other controls
+            dtpSaleDate.Font = FontManager.Kookmin_9_75; // 국민연금체 Regular, 9.75F
+            txtMemo.Font = FontManager.Kookmin_9; // 국민연금체 Regular, 9F
+            txtCustomerName.Font = FontManager.Kookmin_9; // 국민연금체 Regular, 9F
+            cmbPaymentMethod.Font = FontManager.Kookmin_10; // 국민연금체 Regular, 10F
+            guna2GroupBox1.Font = FontManager.Kookmin_9; // 국민연금체 Regular, 9F
+            guna2GroupBox2.Font = FontManager.Kookmin_9; // 국민연금체 Regular, 9F
+        }
+
         private void RefreshCustomerGrade(int customerId)
         {
             Dictionary<string, object> param = new Dictionary<string, object>();
@@ -210,6 +241,11 @@ namespace Damda
         private void btnItemAdd_Click(object sender, EventArgs e)
         {
             dgvSalesHistory.Rows.Add(); // 새 행 추가
+        }
+
+        private void MenuSale_Load(object sender, EventArgs e)
+        {
+            dtpSaleDate.Value = DateTime.Today;
         }
     }
 }
