@@ -45,6 +45,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.containerPanel = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.menuPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -58,6 +59,7 @@
             // menuPanel
             // 
             this.menuPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.menuPanel.Controls.Add(this.guna2Panel1);
             this.menuPanel.Controls.Add(this.label3);
             this.menuPanel.Controls.Add(this.guna2PictureBox2);
             this.menuPanel.Controls.Add(this.label2);
@@ -297,19 +299,26 @@
             // containerPanel
             // 
             this.containerPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(245)))));
-            this.containerPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.containerPanel.Location = new System.Drawing.Point(186, 0);
             this.containerPanel.Name = "containerPanel";
             this.containerPanel.Size = new System.Drawing.Size(728, 624);
             this.containerPanel.TabIndex = 1;
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BackColor = System.Drawing.Color.Blue;
+            this.guna2Panel1.Location = new System.Drawing.Point(186, 0);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(728, 40);
+            this.guna2Panel1.TabIndex = 2;
             // 
             // MainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(914, 624);
-            this.Controls.Add(this.containerPanel);
             this.Controls.Add(this.menuPanel);
+            this.Controls.Add(this.containerPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
@@ -341,6 +350,7 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
     }
 }
 

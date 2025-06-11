@@ -27,6 +27,7 @@ namespace Damda
             dgvCustomerList.ThemeStyle.HeaderStyle.Font = FontManager.Kookmin_9;
             dgvCustomerList.ThemeStyle.RowsStyle.Font = FontManager.Kookmin_9;
             cmbGradeFilter.Font = FontManager.CookieRun_14;
+            btnDelete.Font = FontManager.CookieRun_12;
         }
         private void cmbGradeFilter_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -87,11 +88,11 @@ namespace Damda
             {
                 DataGridViewRow row = dgvCustomerList.Rows[e.RowIndex];
 
-                // Step 2 : id, memo 값 추출
+                // Step 2-1 : id, memo 값 추출
                 string customerName = row.Cells["이름"].Value?.ToString();
                 string phone = row.Cells["연락처"].Value?.ToString();
 
-                // Step 3 : DB 반영
+                // Step 2-2 : DB 반영
                 string sql = @"
                             UPDATE tbCustomer
                             SET phone = @phone
@@ -103,6 +104,42 @@ namespace Damda
 
                 DBHelper.ExecuteNonQuery(sql, paramPhone);
             }
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            // Step 1 : 현재 선택한 고객의 이름 구하기
+            if (dgvCustomerList.SelectedRows.Count == 0) return;
+            int rowIndex = dgvCustomerList.CurrentCell.RowIndex;
+            int columnIndex = dgvCustomerList.CurrentCell.ColumnIndex;
+            string selectedName = dgvCustomerList.Rows[rowIndex].Cells[columnIndex].Value.ToString();
+
+            // Step 2 : 외래키 참조 제약조건에 의해 tbSale에 등록된 고객의 ID부터 제거를 위해 ID 서치
+            string sql = @"
+                        SELECT id
+                        FROM tbCustomer
+                        WHERE name = @name";
+            Dictionary<string, object> paramName = new Dictionary<string, object>();
+            paramName.Add("@name", selectedName);
+
+            int customerId = (int)DBHelper.ExecuteScalar(sql, paramName);
+
+            // Step 3 : tbSale에 등록된 고객의 id 제거
+            sql = @"
+                DELETE FROM tbSale
+                WHERE customerId = @customerId";
+            Dictionary<string, object> paramId = new Dictionary<string, object>();
+            paramId.Add("@customerId", customerId);
+            DBHelper.ExecuteNonQuery(sql, paramId);
+
+            // Step 4 : tbCustomer에 등록된 고객 제거
+            sql = @"
+                DELETE FROM tbCustomer
+                WHERE id = @customerId";
+            DBHelper.ExecuteNonQuery(sql, paramId);
+
+            // Step 5 : dgv에서도 제거
+            dgvCustomerList.Rows.RemoveAt(rowIndex);
         }
     }
 }

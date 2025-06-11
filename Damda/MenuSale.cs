@@ -25,7 +25,6 @@ namespace Damda
             label1.Font = FontManager.Kookmin_16; // 국민연금체 Regular, 15.75F
             label4.Font = FontManager.Kookmin_16; // 국민연금체 Regular, 15.75F
             label5.Font = FontManager.Kookmin_16; // 국민연금체 Regular, 15.75F
-            label6.Font = FontManager.Kookmin_16; // 국민연금체 Regular, 15.75F
             lblTotalPrice.Font = FontManager.Kookmin_12; // 국민연금체 Regular, 12F
 
             // Buttons
@@ -41,7 +40,6 @@ namespace Damda
 
             // Other controls
             dtpSaleDate.Font = FontManager.Kookmin_9_75; // 국민연금체 Regular, 9.75F
-            txtMemo.Font = FontManager.Kookmin_9; // 국민연금체 Regular, 9F
             txtCustomerName.Font = FontManager.Kookmin_9; // 국민연금체 Regular, 9F
             cmbPaymentMethod.Font = FontManager.Kookmin_10; // 국민연금체 Regular, 10F
             guna2GroupBox1.Font = FontManager.Kookmin_9; // 국민연금체 Regular, 9F
@@ -91,7 +89,6 @@ namespace Damda
             DateTime saleDate = dtpSaleDate.Value.Date;
             string customerName = txtCustomerName.Text.Trim();
             string paymentMethod = cmbPaymentMethod.SelectedItem?.ToString() ?? "";
-            string memo = txtMemo.Text.Trim();
 
             if (string.IsNullOrEmpty(customerName)) customerName = "비회원";
 
@@ -159,7 +156,7 @@ namespace Damda
                     INSERT INTO tbSale 
                         (customerId, saleDate, item, price, quantity, paymentMethod, memo) 
                     VALUES 
-                        (@customerId, @saleDate, @item, @price, @quantity, @paymentMethod, @memo)";
+                        (@customerId, @saleDate, @item, @price, @quantity, @paymentMethod, '')";
                 
                 Dictionary<string, object> paramInsert = new Dictionary<string, object>();
                 paramInsert.Add("@customerId", customerId);
@@ -168,7 +165,6 @@ namespace Damda
                 paramInsert.Add("@price", price);
                 paramInsert.Add("@quantity", quantity);
                 paramInsert.Add("@paymentMethod", paymentMethod);
-                paramInsert.Add("@memo", memo);
 
                 using (SqlConnection con = DBHelper.GetConnection())
                 {

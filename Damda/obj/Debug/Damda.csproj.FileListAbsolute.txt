@@ -33,7 +33,10 @@ C:\Users\root\source\repos\Damda\Damda\obj\Debug\Damda.MenuExport.resources
 C:\Users\root\source\repos\Damda\Damda\obj\Debug\Damda.MenuHistory.resources
 C:\Users\root\source\repos\Damda\Damda\obj\Debug\Damda.MenuSettings.resources
 C:\Users\root\source\repos\Damda\Damda\obj\Debug\Damda.MenuStat.resources
-C:\Users\root\source\repos\Damda\Damda\obj\Debug\Damda.csproj.Fody.CopyLocal.cache
-C:\Users\root\source\repos\Damda\Damda\obj\Debug\Damda.csproj.Fody.RuntimeCopyLocal.cache
 C:\Users\s4chd\source\repos\Damda-main\Damda\obj\Debug\Damda.csproj.Fody.CopyLocal.cache
 C:\Users\s4chd\source\repos\Damda-main\Damda\obj\Debug\Damda.csproj.Fody.RuntimeCopyLocal.cache
+C:\Users\root\source\repos\Damda\Damda\bin\Debug\Costura.dll
+C:\Users\root\source\repos\Damda\Damda\bin\Debug\Guna.UI2.dll
+C:\Users\root\source\repos\Damda\Damda\bin\Debug\Costura.pdb
+C:\Users\root\source\repos\Damda\Damda\bin\Debug\Costura.xml
+C:\Users\root\source\repos\Damda\Damda\obj\Debug\Damda.csproj.Up2Date

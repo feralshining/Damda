@@ -3,6 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\root\\source\\repos\\Damda\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|C:\\Users\\root\\source\\repos\\Damda\\damda\\menucustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|solutionrelative:damda\\menucustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_H9F8UMG_MSSQLSERVER01/DamdaFinalDB/True/SqlTable/dbo.tbCustomer.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|C:\\Users\\root\\source\\repos\\Damda\\damda\\menusale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|solutionrelative:damda\\menusale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_H9F8UMG_MSSQLSERVER01/DamdaFinalDB/True/SqlTable/dbo.tbSale.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|C:\\Users\\root\\source\\repos\\Damda\\damda\\menucustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|solutionrelative:damda\\menucustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|C:\\Users\\root\\source\\repos\\Damda\\damda\\menuexport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|solutionrelative:damda\\menuexport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|C:\\Users\\root\\source\\repos\\Damda\\damda\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|solutionrelative:damda\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -11,48 +33,36 @@
       "RelativeMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|solutionrelative:damda\\menuhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|C:\\Users\\root\\source\\repos\\Damda\\damda\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|solutionrelative:damda\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|c:\\users\\root\\source\\repos\\damda\\damda\\menucustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|solutionrelative:damda\\menucustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|c:\\users\\root\\source\\repos\\damda\\damda\\fontmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|solutionrelative:damda\\fontmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|C:\\Users\\root\\source\\repos\\Damda\\damda\\menusale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|solutionrelative:damda\\menusale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|c:\\users\\root\\source\\repos\\damda\\damda\\menuhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|solutionrelative:damda\\menuhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|c:\\users\\root\\source\\repos\\damda\\damda\\menuexport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|solutionrelative:damda\\menuexport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|c:\\users\\root\\source\\repos\\damda\\damda\\menusettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|solutionrelative:damda\\menusettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|c:\\users\\root\\source\\repos\\damda\\damda\\menustat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|C:\\Users\\root\\source\\repos\\Damda\\damda\\menustat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|solutionrelative:damda\\menustat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|c:\\users\\root\\source\\repos\\damda\\damda\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|solutionrelative:damda\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|C:\\Users\\root\\source\\repos\\Damda\\damda\\menuhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|solutionrelative:damda\\menuhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|c:\\users\\root\\source\\repos\\damda\\damda\\menuhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|C:\\Users\\root\\source\\repos\\Damda\\damda\\menusettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|solutionrelative:damda\\menusettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|C:\\Users\\root\\source\\repos\\Damda\\damda\\fontmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|solutionrelative:damda\\fontmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|C:\\Users\\root\\source\\repos\\Damda\\damda\\menuhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|solutionrelative:damda\\menuhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|c:\\users\\root\\source\\repos\\damda\\damda\\menusale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|solutionrelative:damda\\menusale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|C:\\Users\\root\\source\\repos\\Damda\\damda\\menuexport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|solutionrelative:damda\\menuexport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|C:\\Users\\root\\source\\repos\\Damda\\damda\\menuhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DB97F9-0CEA-4E7D-B538-D279DC907638}|Damda\\Damda.csproj|solutionrelative:damda\\menuhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,100 +76,97 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FontManager.cs",
-              "DocumentMoniker": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\FontManager.cs",
-              "RelativeDocumentMoniker": "Damda\\FontManager.cs",
-              "ToolTip": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\FontManager.cs",
-              "RelativeToolTip": "Damda\\FontManager.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T02:14:12.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MainForm.cs",
-              "RelativeDocumentMoniker": "Damda\\MainForm.cs",
-              "ToolTip": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MainForm.cs",
-              "RelativeToolTip": "Damda\\MainForm.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAmwBMAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T04:00:49.2Z",
+              "DocumentIndex": 3,
+              "Title": "dbo.tbSale [\uB370\uC774\uD130]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_H9F8UMG_MSSQLSERVER01/DamdaFinalDB/True/SqlTable/dbo.tbSale.sql",
+              "ToolTip": "dbo.tbSale [\uB370\uC774\uD130]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-11T05:06:25.316Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MenuHome.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuHome.cs",
-              "RelativeDocumentMoniker": "Damda\\MenuHome.cs",
-              "ToolTip": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuHome.cs [\uB514\uC790\uC778]",
-              "RelativeToolTip": "Damda\\MenuHome.cs [\uB514\uC790\uC778]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T04:18:27.581Z",
-              "EditorCaption": " [\uB514\uC790\uC778]"
+              "Title": "dbo.tbCustomer [\uB370\uC774\uD130]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_H9F8UMG_MSSQLSERVER01/DamdaFinalDB/True/SqlTable/dbo.tbCustomer.sql",
+              "ToolTip": "dbo.tbCustomer [\uB370\uC774\uD130]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-11T04:29:49.345Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainForm.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MainForm.cs",
-              "RelativeDocumentMoniker": "Damda\\MainForm.cs",
-              "ToolTip": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MainForm.cs [\uB514\uC790\uC778]",
-              "RelativeToolTip": "Damda\\MainForm.cs [\uB514\uC790\uC778]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T03:31:59.436Z",
-              "EditorCaption": " [\uB514\uC790\uC778]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MenuCustomer.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuCustomer.cs",
-              "RelativeDocumentMoniker": "Damda\\MenuCustomer.cs",
-              "ToolTip": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuCustomer.cs [\uB514\uC790\uC778]",
-              "RelativeToolTip": "Damda\\MenuCustomer.cs [\uB514\uC790\uC778]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T02:07:18.13Z",
-              "EditorCaption": " [\uB514\uC790\uC778]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "MenuSale.cs [\uB514\uC790\uC778]",
               "DocumentMoniker": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuSale.cs",
               "RelativeDocumentMoniker": "Damda\\MenuSale.cs",
               "ToolTip": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuSale.cs [\uB514\uC790\uC778]",
               "RelativeToolTip": "Damda\\MenuSale.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T06:33:20.517Z",
+              "WhenOpened": "2025-06-11T03:34:14.656Z",
               "EditorCaption": " [\uB514\uC790\uC778]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MenuHistory.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuHistory.cs",
-              "RelativeDocumentMoniker": "Damda\\MenuHistory.cs",
-              "ToolTip": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuHistory.cs [\uB514\uC790\uC778]",
-              "RelativeToolTip": "Damda\\MenuHistory.cs [\uB514\uC790\uC778]",
+              "DocumentIndex": 0,
+              "Title": "MenuCustomer.cs",
+              "DocumentMoniker": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuCustomer.cs",
+              "RelativeDocumentMoniker": "Damda\\MenuCustomer.cs",
+              "ToolTip": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuCustomer.cs",
+              "RelativeToolTip": "Damda\\MenuCustomer.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAIwIYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T02:07:14.209Z",
+              "WhenOpened": "2025-06-11T03:34:14.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuCustomer.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuCustomer.cs",
+              "RelativeDocumentMoniker": "Damda\\MenuCustomer.cs",
+              "ToolTip": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuCustomer.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "Damda\\MenuCustomer.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T03:34:14.66Z",
               "EditorCaption": " [\uB514\uC790\uC778]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "MenuExport.cs [\uB514\uC790\uC778]",
               "DocumentMoniker": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuExport.cs",
               "RelativeDocumentMoniker": "Damda\\MenuExport.cs",
               "ToolTip": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuExport.cs [\uB514\uC790\uC778]",
               "RelativeToolTip": "Damda\\MenuExport.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T02:07:16.872Z",
+              "WhenOpened": "2025-06-11T03:34:14.662Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainForm.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MainForm.cs",
+              "RelativeDocumentMoniker": "Damda\\MainForm.cs",
+              "ToolTip": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MainForm.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "Damda\\MainForm.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T03:34:14.636Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MenuHome.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuHome.cs",
+              "RelativeDocumentMoniker": "Damda\\MenuHome.cs",
+              "ToolTip": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuHome.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "Damda\\MenuHome.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T03:34:14.657Z",
               "EditorCaption": " [\uB514\uC790\uC778]"
             },
             {
@@ -171,7 +178,7 @@
               "ToolTip": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuSettings.cs [\uB514\uC790\uC778]",
               "RelativeToolTip": "Damda\\MenuSettings.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T02:07:13.264Z",
+              "WhenOpened": "2025-06-11T03:34:14.652Z",
               "EditorCaption": " [\uB514\uC790\uC778]"
             },
             {
@@ -183,46 +190,84 @@
               "ToolTip": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuStat.cs [\uB514\uC790\uC778]",
               "RelativeToolTip": "Damda\\MenuStat.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T02:07:11.966Z",
+              "WhenOpened": "2025-06-11T03:34:14.664Z",
               "EditorCaption": " [\uB514\uC790\uC778]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MenuSale.cs",
-              "DocumentMoniker": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuSale.cs",
-              "RelativeDocumentMoniker": "Damda\\MenuSale.cs",
-              "ToolTip": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuSale.cs",
-              "RelativeToolTip": "Damda\\MenuSale.cs",
-              "ViewState": "AgIAAJsAAAAAAAAAAAAowD4AAAAuAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "MenuHistory.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuHistory.cs",
+              "RelativeDocumentMoniker": "Damda\\MenuHistory.cs",
+              "ToolTip": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuHistory.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "Damda\\MenuHistory.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T01:55:11.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T03:34:14.663Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "MenuSettings.cs",
+              "DocumentMoniker": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuSettings.cs",
+              "RelativeDocumentMoniker": "Damda\\MenuSettings.cs",
+              "ToolTip": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuSettings.cs",
+              "RelativeToolTip": "Damda\\MenuSettings.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA3wBUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T03:34:14.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FontManager.cs",
+              "DocumentMoniker": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\FontManager.cs",
+              "RelativeDocumentMoniker": "Damda\\FontManager.cs",
+              "ToolTip": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\FontManager.cs",
+              "RelativeToolTip": "Damda\\FontManager.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T03:34:14.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "MenuHome.cs",
               "DocumentMoniker": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuHome.cs",
               "RelativeDocumentMoniker": "Damda\\MenuHome.cs",
               "ToolTip": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuHome.cs",
               "RelativeToolTip": "Damda\\MenuHome.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAIwE0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T01:54:02.871Z",
+              "WhenOpened": "2025-06-11T03:34:14.658Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DBHelper.cs",
-              "DocumentMoniker": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\DBHelper.cs",
-              "RelativeDocumentMoniker": "Damda\\DBHelper.cs",
-              "ToolTip": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\DBHelper.cs",
-              "RelativeToolTip": "Damda\\DBHelper.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAuwFsAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "MenuExport.cs",
+              "DocumentMoniker": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuExport.cs",
+              "RelativeDocumentMoniker": "Damda\\MenuExport.cs",
+              "ToolTip": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuExport.cs",
+              "RelativeToolTip": "Damda\\MenuExport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T01:19:54.818Z",
+              "WhenOpened": "2025-06-11T03:34:14.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MenuHistory.cs",
+              "DocumentMoniker": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuHistory.cs",
+              "RelativeDocumentMoniker": "Damda\\MenuHistory.cs",
+              "ToolTip": "C:\\Users\\root\\source\\repos\\Damda\\Damda\\MenuHistory.cs",
+              "RelativeToolTip": "Damda\\MenuHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T03:34:14.662Z",
               "EditorCaption": ""
             }
           ]
