@@ -20,30 +20,26 @@ namespace Damda
         }
         private void SetUIFont()
         {
-            // Labels
-            menuLabel.Font = FontManager.CookieRun_22; // CookieRun Regular, 22.2F
-            label1.Font = FontManager.Kookmin_16; // 국민연금체 Regular, 15.75F
-            label4.Font = FontManager.Kookmin_16; // 국민연금체 Regular, 15.75F
-            label5.Font = FontManager.Kookmin_16; // 국민연금체 Regular, 15.75F
-            lblTotalPrice.Font = FontManager.Kookmin_12; // 국민연금체 Regular, 12F
+            menuLabel.Font = FontManager.CookieRun_22;
+            label1.Font = FontManager.Kookmin_16;
+            label4.Font = FontManager.Kookmin_16;
+            label5.Font = FontManager.Kookmin_16;
+            lblTotalPrice.Font = FontManager.Kookmin_12;
 
-            // Buttons
-            btnRegister.Font = FontManager.CookieRun_12; // CookieRun Regular, 12F
-            btnItemAdd.Font = FontManager.CookieRun_12; // CookieRun Regular, 12F
+            btnRegister.Font = FontManager.CookieRun_12;
+            btnItemAdd.Font = FontManager.CookieRun_12;
 
-            // DataGridView
-            dgvSalesHistory.ColumnHeadersDefaultCellStyle.Font = FontManager.Kookmin_11; // 국민연금체 Regular, 11F
-            dgvSalesHistory.DefaultCellStyle.Font = FontManager.Kookmin_11; // 국민연금체 Regular, 11F
-            dgvSalesHistory.RowHeadersDefaultCellStyle.Font = FontManager.Kookmin_11; // 국민연금체 Regular, 11F
-            dgvSalesHistory.ThemeStyle.HeaderStyle.Font = FontManager.Kookmin_11; // 국민연금체 Regular, 11F
-            dgvSalesHistory.ThemeStyle.RowsStyle.Font = FontManager.Kookmin_9; // 국민연금체 Regular, 9F
+            dgvSalesHistory.ColumnHeadersDefaultCellStyle.Font = FontManager.Kookmin_11;
+            dgvSalesHistory.DefaultCellStyle.Font = FontManager.Kookmin_11;
+            dgvSalesHistory.RowHeadersDefaultCellStyle.Font = FontManager.Kookmin_11;
+            dgvSalesHistory.ThemeStyle.HeaderStyle.Font = FontManager.Kookmin_11;
+            dgvSalesHistory.ThemeStyle.RowsStyle.Font = FontManager.Kookmin_9;
 
-            // Other controls
-            dtpSaleDate.Font = FontManager.Kookmin_9_75; // 국민연금체 Regular, 9.75F
-            txtCustomerName.Font = FontManager.Kookmin_9; // 국민연금체 Regular, 9F
-            cmbPaymentMethod.Font = FontManager.Kookmin_10; // 국민연금체 Regular, 10F
-            guna2GroupBox1.Font = FontManager.Kookmin_9; // 국민연금체 Regular, 9F
-            guna2GroupBox2.Font = FontManager.Kookmin_9; // 국민연금체 Regular, 9F
+            dtpSaleDate.Font = FontManager.Kookmin_9_75;
+            txtCustomerName.Font = FontManager.Kookmin_9;
+            cmbPaymentMethod.Font = FontManager.Kookmin_10;
+            guna2GroupBox1.Font = FontManager.Kookmin_9;
+            guna2GroupBox2.Font = FontManager.Kookmin_9;
         }
 
         private void RefreshCustomerGrade(int customerId)
@@ -201,7 +197,7 @@ namespace Damda
                 MessageBox.Show("매출이 성공적으로 등록되었습니다.", "완료", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 RefreshCustomerGrade(customerId);
                 dgvSalesHistory.Rows.Clear();
-                lblTotalPrice.Text = "0";
+                lblTotalPrice.Text = "합계 : ₩0";
             }
             else
             {
@@ -231,17 +227,23 @@ namespace Damda
                 if (row.IsNewRow) continue; //마지막 줄(새 행 추가용) 무시
                 if (int.TryParse(row.Cells["colTotalPrice"].Value?.ToString(), out int rowTotal)) totalSum += rowTotal;
             }
-            lblTotalPrice.Text = totalSum.ToString("#,##0") + "원";
+            lblTotalPrice.Text = $"합계 : ₩{totalSum.ToString("#,##0")}";
         }
 
-        private void btnItemAdd_Click(object sender, EventArgs e)
-        {
-            dgvSalesHistory.Rows.Add(); // 새 행 추가
-        }
+        private void btnItemAdd_Click(object sender, EventArgs e) => dgvSalesHistory.Rows.Add(); // 새 행 추가
 
         private void MenuSale_Load(object sender, EventArgs e)
         {
             dtpSaleDate.Value = DateTime.Today;
+        }
+
+        private void dgvSalesHistory_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+            string columnName = dgvSalesHistory.Columns[e.ColumnIndex].Name;
+            if ((columnName == "colPrice" || columnName == "colTotalPrice") && (e.Value != null))
+            {
+                e.Value = "₩" + Convert.ToDecimal(e.Value).ToString("#,##0"); 
+            }
         }
     }
 }

@@ -310,6 +310,7 @@
             this.dgvTodaySalesHistory.ThemeStyle.RowsStyle.Height = 40;
             this.dgvTodaySalesHistory.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.dgvTodaySalesHistory.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgvTodaySalesHistory.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dgvTodaySalesHistory_CellFormatting);
             // 
             // guna2PictureBox2
             // 

@@ -95,5 +95,14 @@ namespace Damda
                 WHERE s.saleDate = CONVERT(date, GETDATE())";
             dgvTodaySalesHistory.DataSource = DBHelper.ExecuteDataTable(sql);
         }
+
+        private void dgvTodaySalesHistory_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+            string columnName = dgvTodaySalesHistory.Columns[e.ColumnIndex].Name;
+            if (columnName == "금액" && e.Value != null)
+            {
+                e.Value = "₩" + Convert.ToDecimal(e.Value).ToString("#,##0");
+            }
+        }
     }
 }

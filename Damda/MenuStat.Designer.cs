@@ -37,9 +37,9 @@
             this.menuLabel.AutoSize = true;
             this.menuLabel.Font = new System.Drawing.Font("CookieRun Regular", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.menuLabel.ForeColor = System.Drawing.Color.Black;
-            this.menuLabel.Location = new System.Drawing.Point(32, 35);
+            this.menuLabel.Location = new System.Drawing.Point(37, 44);
             this.menuLabel.Name = "menuLabel";
-            this.menuLabel.Size = new System.Drawing.Size(130, 41);
+            this.menuLabel.Size = new System.Drawing.Size(161, 50);
             this.menuLabel.TabIndex = 4;
             this.menuLabel.Text = "통계 보기";
             // 
@@ -52,20 +52,22 @@
             this.guna2GroupBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(245)))));
             this.guna2GroupBox1.Font = new System.Drawing.Font("국민연금체 Regular", 9F);
             this.guna2GroupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2GroupBox1.Location = new System.Drawing.Point(39, 88);
+            this.guna2GroupBox1.Location = new System.Drawing.Point(45, 110);
+            this.guna2GroupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2GroupBox1.Name = "guna2GroupBox1";
-            this.guna2GroupBox1.Size = new System.Drawing.Size(664, 512);
+            this.guna2GroupBox1.Size = new System.Drawing.Size(759, 640);
             this.guna2GroupBox1.TabIndex = 20;
             // 
             // MenuStat
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(245)))));
-            this.ClientSize = new System.Drawing.Size(728, 624);
+            this.ClientSize = new System.Drawing.Size(832, 780);
             this.Controls.Add(this.guna2GroupBox1);
             this.Controls.Add(this.menuLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "MenuStat";
             this.Text = "MenuStat";
             this.ResumeLayout(false);

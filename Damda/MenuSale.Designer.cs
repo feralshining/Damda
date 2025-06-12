@@ -186,7 +186,7 @@
             this.lblTotalPrice.AutoSize = true;
             this.lblTotalPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lblTotalPrice.ForeColor = System.Drawing.Color.Black;
-            this.lblTotalPrice.Location = new System.Drawing.Point(214, 20);
+            this.lblTotalPrice.Location = new System.Drawing.Point(195, 20);
             this.lblTotalPrice.Name = "lblTotalPrice";
             this.lblTotalPrice.Size = new System.Drawing.Size(58, 25);
             this.lblTotalPrice.TabIndex = 26;
@@ -283,6 +283,7 @@
             this.dgvSalesHistory.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.dgvSalesHistory.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             this.dgvSalesHistory.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSalesHistory_CellEndEdit);
+            this.dgvSalesHistory.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dgvSalesHistory_CellFormatting);
             // 
             // colItem
             // 
