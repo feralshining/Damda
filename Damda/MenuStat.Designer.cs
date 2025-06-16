@@ -30,6 +30,8 @@
         {
             this.menuLabel = new System.Windows.Forms.Label();
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.pieChart1 = new LiveCharts.WinForms.PieChart();
+            this.guna2GroupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuLabel
@@ -48,6 +50,7 @@
             this.guna2GroupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(245)))));
             this.guna2GroupBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.guna2GroupBox1.BorderRadius = 10;
+            this.guna2GroupBox1.Controls.Add(this.pieChart1);
             this.guna2GroupBox1.CustomBorderColor = System.Drawing.Color.Transparent;
             this.guna2GroupBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(245)))));
             this.guna2GroupBox1.Font = new System.Drawing.Font("국민연금체 Regular", 9F);
@@ -57,6 +60,14 @@
             this.guna2GroupBox1.Name = "guna2GroupBox1";
             this.guna2GroupBox1.Size = new System.Drawing.Size(759, 640);
             this.guna2GroupBox1.TabIndex = 20;
+            // 
+            // pieChart1
+            // 
+            this.pieChart1.Location = new System.Drawing.Point(35, 43);
+            this.pieChart1.Name = "pieChart1";
+            this.pieChart1.Size = new System.Drawing.Size(229, 166);
+            this.pieChart1.TabIndex = 0;
+            this.pieChart1.Text = "pieChart1";
             // 
             // MenuStat
             // 
@@ -69,7 +80,9 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "MenuStat";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MenuStat";
+            this.guna2GroupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -79,5 +92,6 @@
 
         private System.Windows.Forms.Label menuLabel;
         private Guna.UI2.WinForms.Guna2GroupBox guna2GroupBox1;
+        private LiveCharts.WinForms.PieChart pieChart1;
     }
 }
