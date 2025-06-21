@@ -51,6 +51,7 @@
     <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
       <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
@@ -85,12 +86,6 @@
     </Compile>
     <Compile Include="MenuCustomer.Designer.cs">
       <DependentUpon>MenuCustomer.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MenuExport.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MenuExport.Designer.cs">
-      <DependentUpon>MenuExport.cs</DependentUpon>
     </Compile>
     <Compile Include="MenuHistory.cs">
       <SubType>Form</SubType>
@@ -129,9 +124,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MenuCustomer.resx">
       <DependentUpon>MenuCustomer.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MenuExport.resx">
-      <DependentUpon>MenuExport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuHistory.resx">
       <DependentUpon>MenuHistory.cs</DependentUpon>

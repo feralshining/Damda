@@ -28,7 +28,6 @@ namespace Damda
             btnCustomer.Font = FontManager.CookieRun_10;
             btnStat.Font = FontManager.CookieRun_10;
             btnDeal.Font = FontManager.CookieRun_10;
-            btnExport.Font = FontManager.CookieRun_10;
             btnSettings.Font = FontManager.CookieRun_10;
             label3.Font = FontManager.CookieRun_10;
         }
@@ -52,7 +51,6 @@ namespace Damda
         private void btnCustomer_Click(object sender, EventArgs e) => ChangePanel(new MenuCustomer());
         private void btnStat_Click(object sender, EventArgs e) => ChangePanel(new MenuStat());
         private void btnDeal_Click(object sender, EventArgs e) => ChangePanel(new MenuHistory());
-        private void btnExport_Click(object sender, EventArgs e) => ChangePanel(new MenuExport());
         private void btnSettings_Click(object sender, EventArgs e) => ChangePanel(new MenuSettings());
         #endregion
     }

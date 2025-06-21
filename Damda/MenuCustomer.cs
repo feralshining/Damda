@@ -141,5 +141,23 @@ namespace Damda
             // Step 5 : dgv에서도 제거
             dgvCustomerList.Rows.RemoveAt(rowIndex);
         }
+
+        private void dgvCustomerList_SelectionChanged(object sender, EventArgs e)
+        {
+            CustomerSelection.SelectedCustomerNames.Clear();
+
+            foreach (DataGridViewRow row in dgvCustomerList.SelectedRows)
+            {
+                string name = row.Cells["이름"].Value?.ToString();
+                if (!string.IsNullOrWhiteSpace(name))
+                {
+                    CustomerSelection.SelectedCustomerNames.Add(name);
+                }
+            }
+        }
+    }
+    public static class CustomerSelection
+    {
+        public static List<string> SelectedCustomerNames = new List<string>();
     }
 }

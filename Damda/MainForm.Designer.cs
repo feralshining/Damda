@@ -32,11 +32,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.menuPanel = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnSettings = new Guna.UI2.WinForms.Guna2Button();
-            this.btnExport = new Guna.UI2.WinForms.Guna2Button();
             this.btnDeal = new Guna.UI2.WinForms.Guna2Button();
             this.btnStat = new Guna.UI2.WinForms.Guna2Button();
             this.btnCustomer = new Guna.UI2.WinForms.Guna2Button();
@@ -45,7 +45,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.containerPanel = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.menuPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -64,7 +63,6 @@
             this.menuPanel.Controls.Add(this.guna2PictureBox2);
             this.menuPanel.Controls.Add(this.label2);
             this.menuPanel.Controls.Add(this.btnSettings);
-            this.menuPanel.Controls.Add(this.btnExport);
             this.menuPanel.Controls.Add(this.btnDeal);
             this.menuPanel.Controls.Add(this.btnStat);
             this.menuPanel.Controls.Add(this.btnCustomer);
@@ -78,6 +76,14 @@
             this.menuPanel.Size = new System.Drawing.Size(186, 624);
             this.menuPanel.TabIndex = 0;
             // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BackColor = System.Drawing.Color.Blue;
+            this.guna2Panel1.Location = new System.Drawing.Point(186, 0);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(728, 40);
+            this.guna2Panel1.TabIndex = 2;
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -85,7 +91,7 @@
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(67, 551);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(132, 56);
+            this.label3.Size = new System.Drawing.Size(106, 42);
             this.label3.TabIndex = 1;
             this.label3.Text = "고객도, 매출도,\r\n따뜻하게 담다";
             // 
@@ -124,7 +130,7 @@
             this.btnSettings.Image = global::Damda.Properties.Resources.icon_config;
             this.btnSettings.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnSettings.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnSettings.Location = new System.Drawing.Point(12, 449);
+            this.btnSettings.Location = new System.Drawing.Point(12, 418);
             this.btnSettings.Name = "btnSettings";
             this.btnSettings.PressedColor = System.Drawing.Color.WhiteSmoke;
             this.btnSettings.Size = new System.Drawing.Size(166, 36);
@@ -132,29 +138,6 @@
             this.btnSettings.Text = "  설정";
             this.btnSettings.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
-            // 
-            // btnExport
-            // 
-            this.btnExport.Animated = true;
-            this.btnExport.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnExport.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnExport.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnExport.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnExport.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.btnExport.Font = new System.Drawing.Font("CookieRun Regular", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btnExport.ForeColor = System.Drawing.Color.White;
-            this.btnExport.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(63)))), ((int)(((byte)(77)))));
-            this.btnExport.Image = global::Damda.Properties.Resources.icon_export;
-            this.btnExport.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnExport.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnExport.Location = new System.Drawing.Point(12, 393);
-            this.btnExport.Name = "btnExport";
-            this.btnExport.PressedColor = System.Drawing.Color.WhiteSmoke;
-            this.btnExport.Size = new System.Drawing.Size(166, 36);
-            this.btnExport.TabIndex = 3;
-            this.btnExport.Text = "  내보내기";
-            this.btnExport.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
             // 
             // btnDeal
             // 
@@ -170,7 +153,7 @@
             this.btnDeal.Image = global::Damda.Properties.Resources.icon_document;
             this.btnDeal.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnDeal.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnDeal.Location = new System.Drawing.Point(12, 337);
+            this.btnDeal.Location = new System.Drawing.Point(12, 362);
             this.btnDeal.Name = "btnDeal";
             this.btnDeal.PressedColor = System.Drawing.Color.WhiteSmoke;
             this.btnDeal.Size = new System.Drawing.Size(166, 36);
@@ -193,7 +176,7 @@
             this.btnStat.Image = global::Damda.Properties.Resources.icon_stat;
             this.btnStat.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnStat.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnStat.Location = new System.Drawing.Point(12, 281);
+            this.btnStat.Location = new System.Drawing.Point(12, 306);
             this.btnStat.Name = "btnStat";
             this.btnStat.PressedColor = System.Drawing.Color.WhiteSmoke;
             this.btnStat.Size = new System.Drawing.Size(166, 36);
@@ -216,7 +199,7 @@
             this.btnCustomer.Image = global::Damda.Properties.Resources.icon_person;
             this.btnCustomer.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnCustomer.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnCustomer.Location = new System.Drawing.Point(12, 225);
+            this.btnCustomer.Location = new System.Drawing.Point(12, 250);
             this.btnCustomer.Name = "btnCustomer";
             this.btnCustomer.PressedColor = System.Drawing.Color.WhiteSmoke;
             this.btnCustomer.Size = new System.Drawing.Size(166, 36);
@@ -240,7 +223,7 @@
             this.btnSale.Image = global::Damda.Properties.Resources.icon_addSale;
             this.btnSale.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnSale.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnSale.Location = new System.Drawing.Point(12, 169);
+            this.btnSale.Location = new System.Drawing.Point(12, 194);
             this.btnSale.Name = "btnSale";
             this.btnSale.PressedColor = System.Drawing.Color.White;
             this.btnSale.Size = new System.Drawing.Size(166, 36);
@@ -264,7 +247,7 @@
             this.btnHome.Image = global::Damda.Properties.Resources.icon_home;
             this.btnHome.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnHome.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnHome.Location = new System.Drawing.Point(12, 113);
+            this.btnHome.Location = new System.Drawing.Point(12, 138);
             this.btnHome.Name = "btnHome";
             this.btnHome.PressedColor = System.Drawing.Color.WhiteSmoke;
             this.btnHome.Size = new System.Drawing.Size(166, 36);
@@ -280,7 +263,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(77, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 40);
+            this.label1.Size = new System.Drawing.Size(58, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "담다";
             // 
@@ -303,14 +286,6 @@
             this.containerPanel.Name = "containerPanel";
             this.containerPanel.Size = new System.Drawing.Size(728, 624);
             this.containerPanel.TabIndex = 1;
-            // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.Blue;
-            this.guna2Panel1.Location = new System.Drawing.Point(186, 0);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(728, 40);
-            this.guna2Panel1.TabIndex = 2;
             // 
             // MainForm
             // 
@@ -343,7 +318,6 @@
         private Guna.UI2.WinForms.Guna2Button btnCustomer;
         private Guna.UI2.WinForms.Guna2Button btnStat;
         private Guna.UI2.WinForms.Guna2Button btnDeal;
-        private Guna.UI2.WinForms.Guna2Button btnExport;
         private Guna.UI2.WinForms.Guna2Button btnSettings;
         private Guna.UI2.WinForms.Guna2Panel containerPanel;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
